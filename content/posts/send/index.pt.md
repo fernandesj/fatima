@@ -1,31 +1,27 @@
 ---
 weight: 4
-title: "Oração"
-date: 2019-12-01T21:57:40+08:00
+title: "Envio Anónimo"
+date: 2022-01-01T21:57:40+08:00
 lastmod: 2020-01-01T16:45:40+08:00
 draft: false
-author: "ordemespiritual"
+author: "anonimos"
 # authorLink: "https://dillonzq.com"
-description: "This article shows the basic Markdown syntax and format."
+description: "Enviar anonimamente uma mensagem, uma carta, um postal, um presente, dinheiro, pedido, serviço..."
 resources:
 - name: "featured-image"
-  src: "featured-image.png"
+  src: "send.jpg"
 
-tags: ["Markdown", "HTML"]
-categories: ["Markdown"]
+tags: ["Envio", "Oferta", "Mensagem", "Pedido"]
+categories: ["Envio"]
 
 lightgallery: true
 ---
 
-This article offers a sample of basic Markdown syntax that can be used in Hugo content files.
+Enviar de forma totalmente anónima uma mensagem, um pedido, uma carta, um postal, um presente, dinheiro, proporcionar um serviço, etc
 
 <!--more-->
 
-{{< admonition >}}
-This article is a shameful copy of the great [Grav original page](http://learn.getgrav.org/content/markdown).
-
-If you want to know about the extended Markdown syntax of **LoveIt** theme, please read [extended Markdown syntax page](../theme-documentation-content#extended-markdown-syntax).
-{{< /admonition >}}
+Todos os envios são efetuados de forma totalmente anónima. Os pagamentos poderão ser efetuados por paypal ou cartão de crédito, mas os nossos serviços não associam o registo dos pagamentos ....
 
 Let's face it: Writing content for the Web is tiresome. WYSIWYG editors help alleviate this task, but they generally result in horrible code, or worse yet, ugly web pages.
 
@@ -56,9 +52,10 @@ Without further delay, let us go over the main elements of Markdown and what the
 :(far fa-bookmark fa-fw): Bookmark this page for easy future reference!
 {{< /admonition >}}
 
-## 1 Headings
+## 1 Mensagem Pessoal
 
-Headings from `h2` through `h6` are constructed with a `#` for each level:
+Enviar uma carta por correio normal, de forma anónima para uma pessoa, escrita por si num formulário próprio.
+Estas cartas 
 
 ```markdown
 ## h2 Heading
@@ -92,7 +89,7 @@ The HTML looks like this:
 ```
 {{< /admonition >}}
 
-## 2 Comments
+## 2 Mensagem Revista
 
 Comments should be HTML compatible.
 
@@ -108,7 +105,7 @@ Comment below should **NOT** be seen:
 This is a comment
 -->
 
-## 3 Horizontal Rules
+## 3 Mensagem Personalizada
 
 The HTML `<hr>` element is for creating a "thematic break" between paragraph-level elements.
 In Markdown, you can create a `<hr>` with any of the following:
@@ -123,7 +120,7 @@ ___
 ---
 ***
 
-## 4 Body Copy
+## 4 Oferta/Presente
 
 Body copy written as normal, plain text will be wrapped with `<p></p>` tags in the rendered HTML.
 
@@ -143,7 +140,7 @@ The HTML looks like this:
 
 A **line break** can be done with one blank line.
 
-## 5 Inline HTML
+## 5 Oferta Regular
 
 If you need a certain HTML tag (with a class) you can simply use HTML:
 
@@ -157,7 +154,7 @@ Paragraph in Markdown.
 Paragraph in Markdown.
 ```
 
-## 6 Emphasis
+## 6 Oferta à escolha
 
 ### Bold
 
@@ -241,7 +238,7 @@ The HTML looks like this:
 <del><em><strong>bold, italics and strikethrough</strong></em></del>
 ```
 
-## 7 Blockquotes
+## 7 Oferta em Dinheiro
 
 For quoting blocks of content from another source within your document.
 
@@ -281,7 +278,7 @@ Nunc augue augue, aliquam non hendrerit ac, commodo vel nisi.
 >> Sed adipiscing elit vitae augue consectetur a gravida nunc vehicula. Donec auctor
 odio non est accumsan facilisis. Aliquam id turpis in dolor tincidunt mollis ac eu diam.
 
-## 8 Lists
+## 8 Enviar Pedido
 
 ### Unordered
 
@@ -432,7 +429,7 @@ The rendered output looks like this:
 - [ ] Update the website
 - [ ] Contact the media
 
-## 9 Code
+## 9 Oferecer Serviço
 
 ### Inline Code
 
@@ -562,7 +559,7 @@ grunt.initConfig({
 [Syntax highlighting page](https://gohugo.io/content-management/syntax-highlighting/) in **Hugo** Docs introduces more about syntax highlighting, including highlight shortcode.
 {{< /admonition >}}
 
-## 10 Tables
+## 10 Oferta Animal
 
 Tables are created by adding pipes as dividers between each cell, and by adding a line of dashes (also separated by bars) beneath the header. Note that the pipes do not need to be vertically aligned.
 
@@ -631,7 +628,7 @@ The rendered output looks like this:
 | ext    | extension to be used for dest files. |
 {{< /admonition >}}
 
-## 11 Links {#links}
+## 11 Outras Ofertas
 
 ### Basic Link
 
@@ -701,63 +698,3 @@ Content for chapter one.
 The specific placement of the anchor tag seems to be arbitrary. They are placed inline here since it seems to be unobtrusive, and it works.
 {{< /admonition >}}
 
-## 12 Footnotes
-
-Footnotes allow you to add notes and references without cluttering the body of the document. When you create a footnote, a superscript number with a link appears where you added the footnote reference. Readers can click the link to jump to the content of the footnote at the bottom of the page.
-
-To create a footnote reference, add a caret and an identifier inside brackets (`[^1]`). Identifiers can be numbers or words, but they can’t contain spaces or tabs. Identifiers only correlate the footnote reference with the footnote itself — in the output, footnotes are numbered sequentially.
-
-Add the footnote using another caret and number inside brackets with a colon and text (`[^1]: My footnote.`). You don’t have to put footnotes at the end of the document. You can put them anywhere except inside other elements like lists, block quotes, and tables.
-
-```markdown
-This is a digital footnote[^1].
-This is a footnote with "label"[^label]
-
-[^1]: This is a digital footnote
-[^label]: This is a footnote with "label"
-```
-
-This is a digital footnote[^1].
-
-This is a footnote with "label"[^label]
-
-[^1]: This is a digital footnote
-[^label]: This is a footnote with "label"
-
-## 13 Images
-
-Images have a similar syntax to links but include a preceding exclamation point.
-
-```markdown
-![Minion](https://octodex.github.com/images/minion.png)
-```
-
-![Minion](https://octodex.github.com/images/minion.png)
-
-or:
-
-```markdown
-![Alt text](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
-```
-
-![Alt text](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
-
-Like links, images also have a footnote style syntax:
-
-```markdown
-![Alt text][id]
-```
-
-![Alt text][id]
-
-With a reference later in the document defining the URL location:
-
-```markdown
-[id]: https://octodex.github.com/images/dojocat.jpg  "The Dojocat"
-```
-
-[id]: https://octodex.github.com/images/dojocat.jpg  "The Dojocat"
-
-{{< admonition tip >}}
-**LoveIt** theme has [special shortcode for image](../theme-documentation-extended-shortcodes#image), which provides more features.
-{{< /admonition >}}
