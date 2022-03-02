@@ -19,10 +19,11 @@ lightgallery: true
 
 Enviar de forma **totalmente anónima** uma **mensagem**, um **pedido**, uma **carta**, um **postal**, um **presente**, **dinheiro**, proporcionar um **serviço**, etc
 
-<!--more-->
+
 
 Todos os envios são efetuados de forma totalmente anónima. Os pagamentos são efetuados numa plataforma autónoma com paypal ou cartão de crédito, para que não haja ligação entre o pagamento e o serviço. Todas as mensagens serão totalmente eliminadas da nossa base de dados logo que sejam enviadas para que não fique nenhum registo e se garanta o anonimato. Não será pedido o registo dos utilizadores nem o seu email e os dados do remetente são facultativos ou fictícios.
 
+<!--more-->
 {{< admonition note "Tipos de Mensagens" >}}
 Se pretende enviar uma mensagem escrita vá a **Mensagem Pessoal**.
 
@@ -32,6 +33,7 @@ Se pretende escolher uma mensagem de entre as muitas da nossa oferta, escolha **
 
 Se quer indicar o assunto e que alguém redija a mensagem por si, opte pela **Mensagem Personalizada**.
 {{< /admonition >}}
+
 
 ## 1 Mensagem Pessoal
 
